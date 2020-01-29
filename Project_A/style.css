@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    height: auto;;
+    background-color: #252525;
+    color: white;
+}
+
+header {
+    width: 100%;
+    margin: 0 0 5% 0;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.text-c{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.t-italic {
+    font-style: italic;
+}
+
+.Geo {
+    margin: 0 auto;
+}
+
+.h1title {
+    text-align: center;
+    font-size: 2em;
+    margin: 1.5% 0 1.5% 0;
+    background-color: #000000;
+}
+
+strong {
+    font-weight: bold;
+    font-style: italic;
+    color: gold;
+}
+
+.Geo p {
+    margin: 1em;
+    font-size: 0.9em;
+}
+
+
+.map {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin: 0 20px 20px 20px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+}
+
+.avatar .h1text {
+    font-size: 2em;
+    clear: right;
+    text-align: center;
+}
+
+.a-bending {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin: 0 20px 20px 20px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.avatar p {
+    margin: 1.5%;
+    font-size: 0.89em;
+}
+
+.avatar a:hover {
+    color: #C78c19;
+}
+
+.avatar a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    right: 0;
+    height: 3px;
+    display: block;
+    background: #C78c19;
+    transition: width .3s ease;
+    -webkit-transition: width .3s ease;
+}
+
