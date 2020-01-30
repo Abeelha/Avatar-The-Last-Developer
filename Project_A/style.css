@@ -47,6 +47,8 @@ strong {
 
 .Geo {
     margin: 0 auto;
+    background: linear-gradient(#726A52 , #282514);
+    padding: 0 0 1em 0;
 }
 
 .Geo p {
@@ -70,6 +72,7 @@ strong {
 .air-avatar {
     margin: 0 auto;
     padding: 0 0 1.4em 0;
+    background: linear-gradient(#F9F0ED, #B7B1AB);
 }
 
 .a-air-img {
@@ -84,10 +87,12 @@ strong {
     margin-top: 20px;
     font-size: 0.8em;
     padding: 1em;
+    color: black;
 }
 
 .water-avatar {
     margin: 0 auto;
+    background: linear-gradient(#E2D8BF, rgb(92, 187, 224));
 }
 
 .a-water-img {
@@ -102,10 +107,16 @@ strong {
     margin-top: 20px;
     font-size: 0.8em;
     padding: 1em;
+    color: black;
+}
+
+.water-avatar p a strong{
+    color: rgb(255, 0, 0);
 }
 
 .earth-avatar {
     margin: 0 auto;
+    background: linear-gradient(#C8C06F, #A56231);
 }
 
 .a-earth-img {
@@ -120,10 +131,12 @@ strong {
     margin-top: 20px;
     font-size: 0.8em;
     padding: 1em;
+    color: black;
 }
 
 .fire-avatar {
     margin: 0 auto;
+    background: linear-gradient(#F3CE71, rgb(146, 4, 4));
 }
 
 .a-fire-img {
@@ -138,6 +151,7 @@ strong {
     margin-top: 20px;
     font-size: 0.8em;
     padding: 1em;
+    color: black;
 }
 
 .avatar .h1text {
