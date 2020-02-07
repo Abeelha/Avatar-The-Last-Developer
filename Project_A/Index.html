@@ -7,6 +7,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Avatar</title>
 
     <link rel="stylesheet" href="reset.css">
@@ -27,18 +29,41 @@
 
     </header>
 
+    <script type="text/javascript">
+
+        function growDiv() {
+            var growDiv = document.getElementById('grow');
+            if (growDiv.clientHeight) {
+                growDiv.style.height = 0;
+            } else {
+                growDiv.style.height = growDiv.scrollHeight + "px";
+            }
+            document.getElementById("more-button").value=document.getElementById("more-button").value=='Read more'?'Read less':'Read more';
+        }
+
+    </script>
+
     <main>
         <section class="Geo text-c">
-
+            
             <h1 class="h1title">Geography of the World of Avatar</h1>
 
-            <img class="map" src="./imgs/Map.jpg">
+            <input type="button" onclick="growDiv()" value="Read more" id="more-button">
+            
+            <div id="grow"> 
 
-            <p class="padding-">The World of Avatar, the Mortal World, or the Physical World is divided into multiple landmasses, islands, and seas with a unique physical geography, landmarks, climates, and demography. For most of its history, the world was divided into a multitude of states and cultures which coalesced into four independent nations: <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Air_Nomads" target="_blank"><strong>The Air Nomads</strong> </a> , <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Water_Tribe" target="_blank"><strong>The Water Tribe</strong> </a>, <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Earth_Kingdom" target="_blank"><strong>The Earth Kingdom</strong> </a>, and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Fire_Nation" target="_blank"><strong>The Fire Nation.</strong> </a></p>
+                <img class="map" src="./imgs/Map.jpg">
 
-            <p class="t-italic">"The four nations were influenced by their corresponding element and accordingly shaped their environment."</p>
+                <div class=>
 
-            <p>The Air Nomads had four temples located in the north, south, east, and west of the Earth. There are two main Water Tribes, situated north and south of the Earth Kingdom, the most expansive and populated state in the world. The Earth Kingdom is by far the largest of the original Four Nations, and its geography varies widely from region to region. While there is often not a "hard-and-fast" division between these regions, certain areas are marked by geographic features that may not be common elsewhere. The Fire Nation is located in the west of the world and is an archipelago of volcanic islands. Each nation has a predominant season, and geography has a great influence on the customs and culture of each country</p>
+                    <p class="padding-">The World of Avatar, the Mortal World, or the Physical World is divided into multiple landmasses, islands, and seas with a unique physical geography, landmarks, climates, and demography. For most of its history, the world was divided into a multitude of states and cultures which coalesced into four independent nations: <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Air_Nomads" target="_blank"><strong>The Air Nomads</strong> </a> , <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Water_Tribe" target="_blank"><strong>The Water Tribe</strong> </a>, <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Earth_Kingdom" target="_blank"><strong>The Earth Kingdom</strong> </a>, and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Fire_Nation" target="_blank"><strong>The Fire Nation.</strong> </a></p>
+    
+                    <p class="t-italic">"The four nations were influenced by their corresponding element and accordingly shaped their environment."</p>
+        
+                    <p>The Air Nomads had four temples located in the north, south, east, and west of the Earth. There are two main Water Tribes, situated north and south of the Earth Kingdom, the most expansive and populated state in the world. The Earth Kingdom is by far the largest of the original Four Nations, and its geography varies widely from region to region. While there is often not a "hard-and-fast" division between these regions, certain areas are marked by geographic features that may not be common elsewhere. The Fire Nation is located in the west of the world and is an archipelago of volcanic islands. Each nation has a predominant season, and geography has a great influence on the customs and culture of each country</p>
+
+                </div>
+            </div>
         </section>
         
         <section class="bending-arts text-c">
@@ -46,14 +71,19 @@
             <section  class="air-avatar">
                 <h2 class="h1title">Air Bending </h2>
 
-                <img class="a-air-img" src="./imgs/Avatar_benders_air.png">
+                <input type="button" onclick="growDiv()" value="Read more" id="more-button">
 
-                <p>Air bending is the bending art used by the Air Nomads; <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Flying_bison" target="_blank"><strong>The flying bison</strong> </a>  were the original airbenders.</p>
+                <div id="grow">
+                    <img class="a-air-img" src="./imgs/Avatar_benders_air.png">
 
-                <p> It concentrates on speed and evasion, forgoing a strong offense for a greater defense. Though apparently lacking fatal finishing moves, it is the most dynamic of all the bending arts. As the element of freedom, airbenders use their capability to bend unencumbered by the ground or any other environmental factors and use their own momentum as a weapon, evading attacks with astounding agility to tire their opponents out or building up massive inertia for explosive gusts of wind to make their counterattacks finishing moves.</p>
-
-                <p>When resorting to physical confrontation, airbenders are able to harness the immense, intangible power of wind. Airbenders can use a flight technique by operating a <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Airbender_staff" target="_blank"><strong>glider</strong> </a> glider and using the air to provide thrust and lift. Airbending's opposite is earthbending and the confrontational style that serves as its foundation. The sub-skills of airbending are flight and spiritual projection. Flight has only been achieved by two people in the entire history of airbending, namely <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Laghima" target="_blank"><strong>Laghima</strong> </a> and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Zaheer" target="_blank"> <strong>Zaheer</strong></a> . Airbending is the element of freedom, and its season is autumn.</p>
-            </section>
+                    <p>Air bending is the bending art used by the Air Nomads; <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Flying_bison" target="_blank"><strong>The flying bison</strong> </a>  were the original airbenders.</p>
+    
+                    <p> It concentrates on speed and evasion, forgoing a strong offense for a greater defense. Though apparently lacking fatal finishing moves, it is the most dynamic of all the bending arts. As the element of freedom, airbenders use their capability to bend unencumbered by the ground or any other environmental factors and use their own momentum as a weapon, evading attacks with astounding agility to tire their opponents out or building up massive inertia for explosive gusts of wind to make their counterattacks finishing moves.</p>
+    
+                    <p>When resorting to physical confrontation, airbenders are able to harness the immense, intangible power of wind. Airbenders can use a flight technique by operating a <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Airbender_staff" target="_blank"><strong>glider</strong> </a> glider and using the air to provide thrust and lift. Airbending's opposite is earthbending and the confrontational style that serves as its foundation. The sub-skills of airbending are flight and spiritual projection. Flight has only been achieved by two people in the entire history of airbending, namely <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Laghima" target="_blank"><strong>Laghima</strong> </a> and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Zaheer" target="_blank"> <strong>Zaheer</strong></a> . Airbending is the element of freedom, and its season is autumn.</p>
+                </section>
+                </div>
+                
             
             <section class="water-avatar">
                 <h1 class="h1title">Water Bending</h1>
