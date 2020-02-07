@@ -11,6 +11,8 @@
 
     <title>Avatar</title>
 
+    <link rel="stylesheet" href="bootstrap.css">
+
     <link rel="stylesheet" href="reset.css">
 
     <link rel="stylesheet" href="style.css">
@@ -29,41 +31,28 @@
 
     </header>
 
-    <script type="text/javascript">
-
-        function growDiv() {
-            var growDiv = document.getElementById('grow');
-            if (growDiv.clientHeight) {
-                growDiv.style.height = 0;
-            } else {
-                growDiv.style.height = growDiv.scrollHeight + "px";
-            }
-            document.getElementById("more-button").value=document.getElementById("more-button").value=='Read more'?'Read less':'Read more';
-        }
-
-    </script>
-
     <main>
         <section class="Geo text-c">
-            
+
             <h1 class="h1title">Geography of the World of Avatar</h1>
 
-            <input type="button" onclick="growDiv()" value="Read more" id="more-button">
-            
-            <div id="grow"> 
+            <p id="collapse1">
+                <button class="btn-style" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Read Geography
+                </button>
+            </p>
+
+            <div class="collapse grow" id="collapseExample" data-parent="#collapse1">
 
                 <img class="map" src="./imgs/Map.jpg">
 
-                <div class=>
+                <p class="padding-">The World of Avatar, the Mortal World, or the Physical World is divided into multiple landmasses, islands, and seas with a unique physical geography, landmarks, climates, and demography. For most of its history, the world was divided into a multitude of states and cultures which coalesced into four independent nations: <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Air_Nomads" target="_blank"><strong>The Air Nomads</strong> </a> , <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Water_Tribe" target="_blank"><strong>The Water Tribe</strong> </a>, <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Earth_Kingdom" target="_blank"><strong>The Earth Kingdom</strong> </a>, and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Fire_Nation" target="_blank"><strong>The Fire Nation.</strong> </a></p>
 
-                    <p class="padding-">The World of Avatar, the Mortal World, or the Physical World is divided into multiple landmasses, islands, and seas with a unique physical geography, landmarks, climates, and demography. For most of its history, the world was divided into a multitude of states and cultures which coalesced into four independent nations: <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Air_Nomads" target="_blank"><strong>The Air Nomads</strong> </a> , <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Water_Tribe" target="_blank"><strong>The Water Tribe</strong> </a>, <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Earth_Kingdom" target="_blank"><strong>The Earth Kingdom</strong> </a>, and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Fire_Nation" target="_blank"><strong>The Fire Nation.</strong> </a></p>
-    
-                    <p class="t-italic">"The four nations were influenced by their corresponding element and accordingly shaped their environment."</p>
-        
-                    <p>The Air Nomads had four temples located in the north, south, east, and west of the Earth. There are two main Water Tribes, situated north and south of the Earth Kingdom, the most expansive and populated state in the world. The Earth Kingdom is by far the largest of the original Four Nations, and its geography varies widely from region to region. While there is often not a "hard-and-fast" division between these regions, certain areas are marked by geographic features that may not be common elsewhere. The Fire Nation is located in the west of the world and is an archipelago of volcanic islands. Each nation has a predominant season, and geography has a great influence on the customs and culture of each country</p>
+                <p class="t-italic">"The four nations were influenced by their corresponding element and accordingly shaped their environment."</p>
 
-                </div>
+                <p>The Air Nomads had four temples located in the north, south, east, and west of the Earth. There are two main Water Tribes, situated north and south of the Earth Kingdom, the most expansive and populated state in the world. The Earth Kingdom is by far the largest of the original Four Nations, and its geography varies widely from region to region. While there is often not a "hard-and-fast" division between these regions, certain areas are marked by geographic features that may not be common elsewhere. The Fire Nation is located in the west of the world and is an archipelago of volcanic islands. Each nation has a predominant season, and geography has a great influence on the customs and culture of each country</p>
             </div>
+            
         </section>
         
         <section class="bending-arts text-c">
@@ -71,9 +60,14 @@
             <section  class="air-avatar">
                 <h2 class="h1title">Air Bending </h2>
 
-                <input type="button" onclick="growDiv()" value="Read more" id="more-button">
+                <p id="collapse2">
+                    <button class="btn-style" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                        Read Air
+                    </button>
+                </p>
 
-                <div id="grow">
+                <div class="collapse grow" id="collapseExample2" data-parent="#collapse2">
+
                     <img class="a-air-img" src="./imgs/Avatar_benders_air.png">
 
                     <p>Air bending is the bending art used by the Air Nomads; <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Flying_bison" target="_blank"><strong>The flying bison</strong> </a>  were the original airbenders.</p>
@@ -81,102 +75,176 @@
                     <p> It concentrates on speed and evasion, forgoing a strong offense for a greater defense. Though apparently lacking fatal finishing moves, it is the most dynamic of all the bending arts. As the element of freedom, airbenders use their capability to bend unencumbered by the ground or any other environmental factors and use their own momentum as a weapon, evading attacks with astounding agility to tire their opponents out or building up massive inertia for explosive gusts of wind to make their counterattacks finishing moves.</p>
     
                     <p>When resorting to physical confrontation, airbenders are able to harness the immense, intangible power of wind. Airbenders can use a flight technique by operating a <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Airbender_staff" target="_blank"><strong>glider</strong> </a> glider and using the air to provide thrust and lift. Airbending's opposite is earthbending and the confrontational style that serves as its foundation. The sub-skills of airbending are flight and spiritual projection. Flight has only been achieved by two people in the entire history of airbending, namely <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Laghima" target="_blank"><strong>Laghima</strong> </a> and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Zaheer" target="_blank"> <strong>Zaheer</strong></a> . Airbending is the element of freedom, and its season is autumn.</p>
-                </section>
+
                 </div>
-                
+            </section>
             
             <section class="water-avatar">
                 <h1 class="h1title">Water Bending</h1>
 
-                <img class="a-water-img" src="./imgs/Avatar_benders_water.png">
-
-                <p>
-                    Water Bending is practiced by some people of the Water Tribe. A versatile element, it is unique in the sense that the original bender of the element wasn't an animal, but rather the <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Tui" target="_blank"><strong>Moon</strong> </a> . Waterbending is the element of change, and its season is winter.
+                <p id="collapse3">
+                    <button class="btn-style-water" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                        Read Water
+                    </button>
                 </p>
+                
+                <div class="collapse grow" id="collapseExample3" data-parent="#collapse3">
+                    <img class="a-water-img" src="./imgs/Avatar_benders_water.png">
 
-                <p>
-                    Similar to their element, waterbenders are extremely adaptable and versatile. Waterbending concentrates on the flow of energy, focusing less on strength and more on turning the opponent's own energy against them. While a bender's victory in battle depends on their skill or ingenuity, waterbenders gain a serious advantage or disadvantage depending on the amount of water around them, although highly skilled waterbenders can draw water from anywhere, such as draw humidity from the air and bend the water in living things, especially plants. 
-                </p>
+                    <p>
+                        Water Bending is practiced by some people of the Water Tribe. A versatile element, it is unique in the sense that the original bender of the element wasn't an animal, but rather the <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Tui" target="_blank"><strong>Moon</strong> </a> . Waterbending is the element of change, and its season is winter.
+                    </p>
+    
+                    <p>
+                        Similar to their element, waterbenders are extremely adaptable and versatile. Waterbending concentrates on the flow of energy, focusing less on strength and more on turning the opponent's own energy against them. While a bender's victory in battle depends on their skill or ingenuity, waterbenders gain a serious advantage or disadvantage depending on the amount of water around them, although highly skilled waterbenders can draw water from anywhere, such as draw humidity from the air and bend the water in living things, especially plants. 
+                    </p>
+    
+                    <p>
+                        As the element of change, waterbenders can fluidly and quickly alternate from defense to offense, from a wall of ice to a jet of water, turning their opponent's strength against them.Due to its lunar sympathy, waterbending is stronger at night and ineffective during a <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Astronomy_in_the_World_of_Avatar#Lunar_eclipse" target="_blank"><strong>lunar eclipse</strong> </a>  or when the Moon Spirit dies. However, to counter waterbending's ineffectiveness during a lunar eclipse, waterbenders gain immense power during the peak of the full moon. The opposite of waterbending is firebending, with its relatively stagnant, direct philosophy. The sub-skills for waterbending are <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Healing" target="_blank"><strong>healing</strong> </a>  and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Bloodbending" target="_blank"><strong>bloodbending</strong> </a> .
+                    </p>
 
-                <p>
-                    As the element of change, waterbenders can fluidly and quickly alternate from defense to offense, from a wall of ice to a jet of water, turning their opponent's strength against them.Due to its lunar sympathy, waterbending is stronger at night and ineffective during a <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Astronomy_in_the_World_of_Avatar#Lunar_eclipse" target="_blank"><strong>lunar eclipse</strong> </a>  or when the Moon Spirit dies. However, to counter waterbending's ineffectiveness during a lunar eclipse, waterbenders gain immense power during the peak of the full moon. The opposite of waterbending is firebending, with its relatively stagnant, direct philosophy. The sub-skills for waterbending are <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Healing" target="_blank"><strong>healing</strong> </a>  and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Bloodbending" target="_blank"><strong>bloodbending</strong> </a> .
-                </p>
+                </div>
+                
             </section>
 
             <section class="earth-avatar">
                 <h1 class="h1title">Earth Bending</h1>
 
-                <img class="a-earth-img" src="./imgs/Avatar_benders_earth.png">
-
-                <p>
-                    Earth Bending originates in the Earth Kingdom and the first earthbenders were <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Badgermole" target="_blank"><strong>badgermoles</strong> </a> . 
+                <p id="collapse4">
+                    <button class="btn-style" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                        Read Earth
+                    </button>
                 </p>
 
-                <p>
-                    It demands a special connection with the earth that is achievable with neutral jing, listening, though seemingly doing nothing and waiting for the right moment to strike. Like waterbenders, earthbenders gain an advantage or disadvantage in battle based on the amount of earth around them, though the conditions aren't as extreme. Because of their element's stability and its stress on neutral <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Jing" target="_blank"><strong>jing</strong> </a>
-                     
-                </p>
+                <div class="collapse grow" id="collapseExample4" data-parent="#collapse4">
+                    <img class="a-earth-img" src="./imgs/Avatar_benders_earth.png">
 
-                <p class="t-italic">
-                    "Listen to me, Aang. There are options in fighting, called jing. It's a choice of how you direct your energy ..."
-                    "I know! There's positive jing when you're attacking, and negative jing when you're retreating!"
-                    "... and neutral jing when you do nothing!"
-                    "There are three jings?"
-                    "Well, technically, there are eighty-five, but let's just focus on the third. Neutral jing is the key to earthbending. It involves listening and waiting for the right moment to strike."
-                    <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Bumi_(King_of_Omashu)" target="_blank"><strong>-Bumi</strong> </a> to <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Aang" target="_blank"><strong>-Aang</strong> </a>
-                </p>
-
-                <p>
-                    Earthbenders stand their ground, absorbing or intercepting attacks until they completely overwhelm their opponents.
-                    Unlike the other bending arts, earthbending's strength equally lies in both offense and defense. Earthbending is in stark contrast to airbending as airbending's emphasis is on evasion and mobility while earthbending's emphasis is on fortitude and strength. The sub-skills for earthbending are  <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Seismic_sense" target="_blank"><strong>Seismic sense</strong> </a> ,  <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Metalbending" target="_blank"><strong>Metalbending</strong> </a> , and  <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Lavabending" target="_blank"><strong>Lavabending</strong> </a> . Earthbending is the element of substance, and its season is spring.
-                </p>
+                    <p>
+                        Earth Bending originates in the Earth Kingdom and the first earthbenders were <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Badgermole" target="_blank"><strong>badgermoles</strong> </a> . 
+                    </p>
+    
+                    <p>
+                        It demands a special connection with the earth that is achievable with neutral jing, listening, though seemingly doing nothing and waiting for the right moment to strike. Like waterbenders, earthbenders gain an advantage or disadvantage in battle based on the amount of earth around them, though the conditions aren't as extreme. Because of their element's stability and its stress on neutral <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Jing" target="_blank"><strong>jing</strong> </a>
+                         
+                    </p>
+    
+                    <p class="t-italic">
+                        "Listen to me, Aang. There are options in fighting, called jing. It's a choice of how you direct your energy ..."
+                        "I know! There's positive jing when you're attacking, and negative jing when you're retreating!"
+                        "... and neutral jing when you do nothing!"
+                        "There are three jings?"
+                        "Well, technically, there are eighty-five, but let's just focus on the third. Neutral jing is the key to earthbending. It involves listening and waiting for the right moment to strike."
+                        <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Bumi_(King_of_Omashu)" target="_blank"><strong>-Bumi</strong> </a> to <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Aang" target="_blank"><strong>-Aang</strong> </a>
+                    </p>
+    
+                    <p>
+                        Earthbenders stand their ground, absorbing or intercepting attacks until they completely overwhelm their opponents.
+                        Unlike the other bending arts, earthbending's strength equally lies in both offense and defense. Earthbending is in stark contrast to airbending as airbending's emphasis is on evasion and mobility while earthbending's emphasis is on fortitude and strength. The sub-skills for earthbending are  <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Seismic_sense" target="_blank"><strong>Seismic sense</strong> </a> ,  <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Metalbending" target="_blank"><strong>Metalbending</strong> </a> , and  <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Lavabending" target="_blank"><strong>Lavabending</strong> </a> . Earthbending is the element of substance, and its season is spring.
+                    </p>
+                </div>
 
             </section>
 
             <section class="fire-avatar">
                 <h1 class="h1title">Fire Bending</h1>
 
-                <img class="a-fire-img" src="./imgs/Avatar_benders_fire.png">
-
-                <p>
-                    Fire Bending is used by the people of the Fire Nation and is the most aggressive bending art. <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Dragon" target="_blank"><strong>Dragons</strong> </a> were the first firebenders; they subsequently taught the Sun Warriors. For a long time, disciplines of firebending were taught to be fueled by hatred, as opposed to the original source. 
+                <p id="collapse5">
+                    <button class="btn-style" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+                        Read Fire
+                    </button>
                 </p>
 
-                <p>
-                    As the element of power, firebenders have to be able to maintain a constant source of energy and balance in battle, unleashing a volley of direct, successive attacks. Unlike other benders who depend on external sources of their elements to bend, firebenders can create fire using their internal heat source in addition to controlling already existent flames. Skilled firebenders are able to fly using powerful jets of flames. Due to its solar affinity, firebending is stronger during the day and at its full power at noon, but completely ineffective during a <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Day_of_Black_Sun" target="_blank"><strong>Solar eclipse</strong> </a>. When a comet passes close to the planet, the power of a firebender is greatly increased.
-                </p>
+                <div class="collapse grow" id="collapseExample5" data-parent="#collapse5">
+                    <img class="a-fire-img" src="./imgs/Avatar_benders_fire.png">
 
-                <p>
-                    Firebending's relatively simple and direct style contrasts the changing style of waterbending. A notable feature of special firebenders is an ability to create a hotter, blue fire; <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Azula" target="_blank"><strong>Azula</strong> </a> was the only known firebender who demonstrated this extra-powerful flame. The sub-skills for firebending are <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Firebending#Special_techniques" target="_blank"><strong>combustionbending</strong> </a>, <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Lightning_generation" target="_blank"><strong>Generating</strong> </a> and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Lightning_redirection" target="_blank"><strong>Redirecting</strong> </a> 
-                </p>
+                    <p>
+                        Fire Bending is used by the people of the Fire Nation and is the most aggressive bending art. <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Dragon" target="_blank"><strong>Dragons</strong> </a> were the first firebenders; they subsequently taught the Sun Warriors. For a long time, disciplines of firebending were taught to be fueled by hatred, as opposed to the original source. 
+                    </p>
+    
+                    <p>
+                        As the element of power, firebenders have to be able to maintain a constant source of energy and balance in battle, unleashing a volley of direct, successive attacks. Unlike other benders who depend on external sources of their elements to bend, firebenders can create fire using their internal heat source in addition to controlling already existent flames. Skilled firebenders are able to fly using powerful jets of flames. Due to its solar affinity, firebending is stronger during the day and at its full power at noon, but completely ineffective during a <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Day_of_Black_Sun" target="_blank"><strong>Solar eclipse</strong> </a>. When a comet passes close to the planet, the power of a firebender is greatly increased.
+                    </p>
+    
+                    <p>
+                        Firebending's relatively simple and direct style contrasts the changing style of waterbending. A notable feature of special firebenders is an ability to create a hotter, blue fire; <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Azula" target="_blank"><strong>Azula</strong> </a> was the only known firebender who demonstrated this extra-powerful flame. The sub-skills for firebending are <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Firebending#Special_techniques" target="_blank"><strong>combustionbending</strong> </a>, <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Lightning_generation" target="_blank"><strong>Generating</strong> </a> and <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Lightning_redirection" target="_blank"><strong>Redirecting</strong> </a> 
+                    </p>
+    
+                    <p class="t-italic">
+                        "If you let the energy in your own body flow, the lightning will follow it. You must create a pathway from your fingertips up your arm to the shoulder, then down into the stomach. The stomach is the source of energy in your body; it is called the sea of chi. From your stomach you direct it up again and out the other arm. The stomach detour is critical; you must not let the lightning pass through your heart, or the damage could be deadly. <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Iroh" target="_blank"><strong>Iroh</strong> </a> - teaching <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Zuko" target="_blank"><strong>Zuko</strong> </a>   to redirect lightning.
+                    </p>
+    
+                    <p>
+                        Lightning. Firebending is the element of power, and its season is summer.
+                    </p>
+                </div>
 
-                <p class="t-italic">
-                    "If you let the energy in your own body flow, the lightning will follow it. You must create a pathway from your fingertips up your arm to the shoulder, then down into the stomach. The stomach is the source of energy in your body; it is called the sea of chi. From your stomach you direct it up again and out the other arm. The stomach detour is critical; you must not let the lightning pass through your heart, or the damage could be deadly. <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Iroh" target="_blank"><strong>Iroh</strong> </a> - teaching <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Zuko" target="_blank"><strong>Zuko</strong> </a>   to redirect lightning.
-                </p>
-
-                <p>
-                    Lightning. Firebending is the element of power, and its season is summer.
-                </p>
             </section>
             
+            <section class="energy-b">
+    
+                <h1 class="h1title">Energy Bending</h1>
+    
+                <p id="collapse6">
+                    <button class="btn-style" type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+                        Read Energy
+                    </button>
+                </p>
+    
+                <div class="collapse grow" id="collapseExample6" data-parent="#collapse6">
+                    
+                    <img class="e-bending-img" src="./imgs/Energybending.png">
+    
+                    <p>
+                        Energy Bending is the art of bending the energy within one's body. 
+                    </p>
+    
+                    <p>
+                        It existed in the <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Era_of_Raava" target="_blank"><strong>Era of Raava</strong> </a> and the four bending arts, though was considered lost. Few Avatars have learned this bending art, and even fewer have used it. It is a highly dangerous technique; if one's own energy is impure and therefore bendable, the practitioner will be consequently destroyed. 
+                    </p>
+    
+                    <p>
+                        Energybending allows the user to remove other people's bending abilities; restore them after a bender had their abilities blocked by <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Bloodbending" target="_blank"><strong>Bloodbending</strong> </a>. and used the art to create a spiritual projection.
+                    </p>
+    
+                </div>
+            </section>
         </section>
         
+
+
         <section class="avatar text-c">
             <h1 class="h1title">The Avatar</h1>
-            
-            <img class="a-bending" src="./imgs/Avatar_bending.jpg">
 
-            <p>
-                The Avatar, formed initially when <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Wan" target="_blank"><strong>Wan</strong></a> permanently fused with <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Raava" target="_blank"><strong>Raava</strong></a> during the <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Harmonic_Convergence" target="_blank"><strong>Harmonic Convergence</strong></a> of 9,829 BG, is the human embodiment of light and peace through the connection with the Avatar Spirit. As the only physical being with the ability to bend all four elements, it is considered the Avatar's duty to master the four bending arts and use that power to keep balance among the four nations of the world, as well as between mankind and spirits. <p>Upon death, the Avatar Spirit causes the Avatar to reincarnate into the next nation, dictated by the cyclic order: fire, air, water, and earth. Mirroring the order in which the first Avatar, Wan, learned the elements, this is also the traditional order in which any one incarnation is to master the elements, beginning with the bending art of the Avatar's birth nation. The reincarnation cycle can only be broken if the Avatar is killed while in the Avatar State, Raava is removed from the Avatar and destroyed, or the Avatar Spirit is compromised by a spiritual infection .</p> 
+            <p id="collapse7">
+                <button class="btn-style" type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+                    Read Energy
+                </button>
             </p>
-            
 
-            <p>
-                "The Avatar State is a defense mechanism, designed to empower you with the skills and knowledge of all the past Avatars. The glow is the combination of all your past lives, focusing their energy through your body. In the Avatar State, you are at your most powerful, but you are also at your most vulnerable. If you are killed in the Avatar State, the reincarnation cycle will be broken and the Avatar will cease to exist." <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Roku" target="_blank"><strong>-Avatar Roku</strong></a>
-            </p>
+            <div class="collapse grow" id="collapseExample7" data-parent="#collapse7">
+                <img class="a-bending" src="./imgs/Avatar_bending.jpg">
+
+                <p>
+                    The Avatar, formed initially when <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Wan" target="_blank"><strong>Wan</strong></a> permanently fused with <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Raava" target="_blank"><strong>Raava</strong></a> during the <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Harmonic_Convergence" target="_blank"><strong>Harmonic Convergence</strong></a> of 9,829 BG, is the human embodiment of light and peace through the connection with the Avatar Spirit. As the only physical being with the ability to bend all four elements, it is considered the Avatar's duty to master the four bending arts and use that power to keep balance among the four nations of the world, as well as between mankind and spirits. <p>Upon death, the Avatar Spirit causes the Avatar to reincarnate into the next nation, dictated by the cyclic order: fire, air, water, and earth. Mirroring the order in which the first Avatar, Wan, learned the elements, this is also the traditional order in which any one incarnation is to master the elements, beginning with the bending art of the Avatar's birth nation. The reincarnation cycle can only be broken if the Avatar is killed while in the Avatar State, Raava is removed from the Avatar and destroyed, or the Avatar Spirit is compromised by a spiritual infection .</p> 
+                </p>
+                
+    
+                <p>
+                    "The Avatar State is a defense mechanism, designed to empower you with the skills and knowledge of all the past Avatars. The glow is the combination of all your past lives, focusing their energy through your body. In the Avatar State, you are at your most powerful, but you are also at your most vulnerable. If you are killed in the Avatar State, the reincarnation cycle will be broken and the Avatar will cease to exist." <a class="hvr-underline-from-left" href="https://avatar.fandom.com/wiki/Roku" target="_blank"><strong>-Avatar Roku</strong></a>
+                </p>
+            </div>
+            
 
         </section>
 
     </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
