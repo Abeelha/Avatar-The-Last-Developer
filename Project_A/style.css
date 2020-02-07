@@ -14,6 +14,10 @@ header {
 header img {
     width: 100%;
     height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-c{
@@ -42,8 +46,40 @@ a {
 }
 
 strong {
- color: deepskyblue;
+    color: deepskyblue;
 }
+
+#more-button{
+    border-style:none;
+    background:none;
+    font-size:2em;
+    font-family: 'Zhi Mang Xing', cursive;
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    border: none;
+    outline:none;
+}
+    
+#grow input:checked{
+    color:red;
+}
+
+#more-button:hover{
+    transition: 2s;
+    color:cyan;
+    border: none;
+}
+
+#grow {
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    height: 0;
+    overflow: hidden;
+    transition: 2s;
+  }
 
 .Geo {
     margin: 0 auto;
@@ -64,6 +100,7 @@ strong {
     margin: 25px 25px 30px 25px;
     box-shadow: 10px 10px 10px #000000;
 }
+
 
 .bending-arts {
     margin: auto;
@@ -173,3 +210,15 @@ strong {
     font-size: 0.8em;
 }
 
+@media only screen and (max-width: 480px) {
+    .map, .a-bending {
+        width:85%;
+    }
+
+    .a-air-img, .a-water-img, .a-earth-img, .a-fire-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2em;
+    }
+}
